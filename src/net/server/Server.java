@@ -225,7 +225,7 @@ public class Server implements Runnable {
     		FilePrinter.printError(FilePrinter.EXCEPTION_CAUGHT, e);
     	}
         System.out.println("Server offline.");
-        System.exit(0);// BOEIEND :D
+//        System.exit(0);// BOEIEND :D
     }
 
     public static void main(String args[]) {
