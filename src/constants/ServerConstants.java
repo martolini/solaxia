@@ -11,7 +11,7 @@ public class ServerConstants {
 	// Login Configuration
     public static final int CHANNEL_LOAD = 100;//Players per channel
     public static final long RANKING_INTERVAL = 60 * 60 * 1000;//60 minutes, 3600000
-    public static final boolean ENABLE_PIC = true;
+    public static final boolean ENABLE_PIC = false;
     //Event Configuration
     public static final boolean PERFECT_PITCH = false;
     // IP Configuration
@@ -30,9 +30,9 @@ public class ServerConstants {
     public static final boolean USE_ITEM_SORT = false;
     public static final boolean USE_PARTY_SEARCH = false;
     //Rates
-    public static final int EXP_RATE = 4;
-    public static final int MESO_RATE = 2;
-    public static final int DROP_RATE = 2;
+    public static final int EXP_RATE = 50;
+    public static final int MESO_RATE = 15;
+    public static final int DROP_RATE = 5;
     public static final int BOSS_DROP_RATE = 2;
     public static final int PARTY_EXPERIENCE_MOD = 1; // change for event stuff
 	public static final double PQ_BONUS_EXP_MOD = 0.5;
